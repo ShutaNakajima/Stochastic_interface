@@ -40,5 +40,5 @@ for k in range(1, n//4):
     ims.append([im])
 
 ani = animation.ArtistAnimation(fig, ims, interval=1000)
-ani.save('test.gif', writer='imagemagick')
+ani.save('FPP.gif', writer='imagemagick')
 plt.show()
